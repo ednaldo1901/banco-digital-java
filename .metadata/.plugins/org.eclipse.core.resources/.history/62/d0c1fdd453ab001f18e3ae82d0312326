@@ -1,0 +1,18 @@
+package contabanco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cliente ednaldo = new Cliente();
+		ednaldo.setNome("ednaldo");
+		
+		Conta cc = new ContaCorrente(ednaldo);
+		cc.depositar(100);
+		Conta poupanca = new ContaPoupanca(ednaldo);
+		
+		cc.extratoInfosConta();
+		poupanca.extratoInfosConta();
+
+
+	}
+}

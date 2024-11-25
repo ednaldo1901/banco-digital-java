@@ -1,0 +1,9 @@
+package contabanco;
+
+public class ContaCorrente extends Conta {
+	public void imprimirExtrato() {
+		super.extratoInfosConta();
+	}
+
+	
+}

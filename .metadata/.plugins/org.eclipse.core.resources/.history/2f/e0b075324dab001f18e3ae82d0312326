@@ -1,0 +1,8 @@
+package contabanco;
+
+public class ContaPoupanca extends Conta {
+	public void imprimirExtrato() {
+		System.out.println("extrato conta poupança");
+		super.extratoInfosConta();
+	}
+}
